@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap');
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+.App {
+  text-align: left;
+}
+.Banner {
+  padding: 80px 0px 40px 0px;
+  background-color: #be74d1;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 18px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+.Name {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 64px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 80px;
+  color: rgb(255, 255, 255);
+}
+.NameSubtitle {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 18px;
+  text-align: left;
+  margin-left: 83px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+.SocialIcons {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  display: flex;
+  margin-left: 83px;
+  gap: 24px;
+}
+.github-icon, .linkedin-icon {
+  color: inherit;
+  background-color: inherit;
+  border-color: inherit;
+}
+.github-icon:hover, .linkedin-icon:hover{
+  color: rgb(192, 192, 192);
+  background-color: inherit;
+  border-color: inherit;
+}
+.navbar-nav {
+  margin-left: 64px;
+}
+.container {
+  margin-top: 50px;
+  margin-left: 85px;
+  padding: 0px;
+}
+.about-text {
+  font-family: 'IBM Plex Mono', monospace;
+  max-width: 800px;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+.projects-text {
+  font-family: 'IBM Plex Mono', monospace;
+  max-width: 800px;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
