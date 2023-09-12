@@ -11,7 +11,7 @@ function App() {
 		<React.Fragment>
 			<Banner />
 			<NavBar />
-			<main className="container">
+			<main className="main-content">
 				<Routes>
 					<Route
 						path="/"

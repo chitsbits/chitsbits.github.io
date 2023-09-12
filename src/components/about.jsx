@@ -1,9 +1,9 @@
 
 const About = () => {
 	return (
-		<div className="about-text">
+		<div className="page-description text">
 			<div>
-				Hey there! My name is Sunny Jiao and I'm currently in my 1B term
+				Hey there! My name is Sunny Jiao and I'm currently in my 2B term
 				of Computer Engineering at the University of Waterloo.
 			</div>
 			<div>&#8203;</div>
@@ -14,8 +14,8 @@ const About = () => {
 			</div>
 			<div>&#8203;</div>
 			<div>
-				Aside from that, I also love to Fence, play video games, sing, and do video
-				editing projects.
+				Aside from that, I also love to Fence 🤺, play video games 🎮, play piano 🎹, and do video
+				editing projects 🎞️.
 			</div>
 		</div>
 	);
