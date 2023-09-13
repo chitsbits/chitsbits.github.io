@@ -2,6 +2,19 @@ import React from "react";
 import { Chip } from "@react-md/chip";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
+function githubLink(link) {
+	if (link) {
+		return (<a
+			className="github-icon project"
+			href={link}
+			target="_blank"
+			rel="noopener noreferrer"
+		>
+			<i className="bi bi-github"></i>
+		</a>);
+	}
+}
+
 export default function ProjectCard({image, title, description, tags, link}) {
 	return (
 		<div className="project-card-container">
@@ -19,14 +32,7 @@ export default function ProjectCard({image, title, description, tags, link}) {
 					})}
 				</div>
 			</div>
-			<a
-				className="github-icon project"
-				href={link}
-				target="_blank"
-				rel="noopener noreferrer"
-			>
-				<i className="bi bi-github"></i>
-			</a>
+			{githubLink(link)}
 		</div>
 	);
 }

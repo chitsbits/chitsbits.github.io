@@ -3,6 +3,11 @@ import placeholder from "../img/82062770_p0.png";
 import mdImg from "../img/mdbot.png";
 import mlImg from "../img/catcam.jpeg";
 
+// TODO: read project data from a JSON file
+
+const memoryDesc = `ChatGPT plugin written with FastAPI. Uses the ChatGPT API to extract context from text, persisting it for retrieval from a vector database.`;
+const memoryTags = ["Python", "FastAPI", "PostgreSQL", "OAuth2"];
+
 const dubercoreDesc = `ICS4UE - AP Computer Science summative project. 2D arcade game with procedural generation and destructible terrain. Inspired by Deep Rock Galactic.`;
 const dubercoreTags = ["Java", "LibGDX", "SQLite"];
 const dubercoreLink = "https://github.com/chitsbits/dubercore";
@@ -33,6 +38,13 @@ const Projects = () => {
             </div>
             <div>&#8203;</div>
             <div className="project-cards-container">
+            <ProjectCard
+                    image={placeholder}
+                    title={"ChatGPT Memory Plugin"}
+                    description={memoryDesc}
+                    tags={memoryTags}
+					link={undefined}
+                ></ProjectCard>
                 <ProjectCard
                     image={mlImg}
                     title={"ML Food Dispenser"}

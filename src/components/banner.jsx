@@ -7,7 +7,7 @@ class Banner extends Component {
 			<div className="Banner">
 				<div className="Name">Sunny Jiao</div>
 				<div className="NameSubtitle">
-					2B Computer Engineering, Univeristy of Waterloo
+					2B Computer Engineering, University of Waterloo
 				</div>
 				<div className="SocialIcons">
 					<a
