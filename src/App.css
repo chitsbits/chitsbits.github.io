@@ -7,43 +7,48 @@ body {
 .App {
   text-align: left;
 }
+
 .Banner {
-  padding: 80px 0px 40px 0px;
-  background-color: #be74d1;
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 18px;
-  text-align: left;
-  color: rgb(255, 255, 255);
-}
-.Name {
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 64px;
-  font-weight: bold;
-  text-align: left;
-  margin-left: 80px;
-  color: rgb(255, 255, 255);
-}
-.NameSubtitle {
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 18px;
-  text-align: left;
-  margin-left: 83px;
-  color: rgb(255, 255, 255);
-  margin-bottom: 10px;
-}
-.SocialIcons {
-  color: rgb(255, 255, 255);
-  font-size: 30px;
   display: flex;
-  margin-left: 83px;
-  gap: 24px;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 80px 0px 40px 5em;
+  background-color: #9b54cb;
+  font-size: 18px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+
+  .Name {
+    font-size: 64px;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(255, 255, 255);
+  }
+
+  .NameSubtitle {
+    margin-bottom: 0.5em;
+    font-size: 18px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+  }
+
+  .SocialIcons {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    display: flex;
+    gap: 24px;
+  }
 }
-.github-icon, .linkedin-icon {
+
+.github-icon,
+.linkedin-icon {
   color: inherit;
   background-color: inherit;
   border-color: inherit;
 }
-.github-icon:hover, .linkedin-icon:hover{
+.github-icon:hover,
+.linkedin-icon:hover {
   color: rgb(192, 192, 192);
   background-color: inherit;
   border-color: inherit;
@@ -55,8 +60,9 @@ body {
   top: 0.25em;
   right: 0.5em;
 }
-.navbar-nav {
+.navbar {
   padding-left: 5em;
+  font-family: 'IBM Plex Mono', monospace;
 }
 .text {
   font-family: 'IBM Plex Mono', monospace;
@@ -69,50 +75,9 @@ body {
   padding-left: 5em;
   padding-top: 1em;
 }
-.project-card-container {
-  position: relative;
-}
-.project-card {
-  border-style: solid;
-  border-radius: 20px;
-  border-width: 1px;
-  border-color: gray;
 
-  background-color: whitesmoke;
-  
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-
-  max-width: 350px;
-
-  & img {
-    max-width: 350px;
-    flex-shrink: 3;
-    width: 100%;
-    object-fit: contain;
-    align-self: flex-start;
-  }
-
-  & .project-description {
-    padding: 1em;
-  }
-
-  & .tags {
-    padding: 1em;
-    width: 100%;
-    align-self: flex-end;
-    background-color:#ededed;
-    
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 0.5em;
-  }
-}
 .project-cards-container {
+  font-size: 18px;
   padding-left: 5em;
   padding-bottom: 2%;
   display: flex;
@@ -120,4 +85,49 @@ body {
   flex-wrap: wrap;
   justify-content: flex-start;
   gap: 2em;
+
+  .project-card-container {
+    position: relative;
+  }
+
+  .project-card {
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: gray;
+
+    background-color: whitesmoke;
+
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 350px;
+
+    & img {
+      max-width: 350px;
+      flex-shrink: 3;
+      width: 100%;
+      object-fit: contain;
+      align-self: flex-start;
+    }
+
+    & .project-description {
+      padding: 1em;
+    }
+
+    & .tags {
+      padding: 1em;
+      width: 100%;
+      align-self: flex-end;
+      background-color: #ededed;
+
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 0.5em;
+    }
+  }
 }

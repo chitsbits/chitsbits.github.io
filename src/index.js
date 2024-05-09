@@ -1,18 +1,18 @@
-import './index.scss';
+import { Configuration } from '@react-md/layout';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import { BrowserRouter } from 'react-router-dom';
 import App from './App';
+import './index.css';
+import './index.scss';
 import reportWebVitals from './reportWebVitals';
-import { HashRouter } from 'react-router-dom';
-import { Configuration } from '@react-md/layout';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Configuration>
-    <HashRouter >
+    <BrowserRouter>
       <App />
-    </HashRouter>
+    </BrowserRouter>
   </Configuration>
 );
 
