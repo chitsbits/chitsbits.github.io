@@ -6,7 +6,7 @@ const Projects = () => {
     <div className="projects">
       <div className="page-description text">
         Here are a selection of my public projects on GitHub. These range from
-        school assignments to hobby projects, and include things written in
+        hobby projects to school assingments, and include things written in
         Java, Python, Javascript and C++.
       </div>
       <div>&#8203;</div>

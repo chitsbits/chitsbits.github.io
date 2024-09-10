@@ -1,8 +1,16 @@
 [
   {
+    "name": "Minecraft on Kubernetes Server Manager",
+    "description": "Management tool for hosting Minecraft servers on Kubernetes.",
+    "tags": ["Python", "Docker", "Kubernetes", "Flask", "Helm", "React"],
+    "image": "mc-docker.png",
+    "link": "https://github.com/chitsbits/mc-server-manager"
+  },
+  {
     "name": "ChatGPT Memory Plugin",
     "description": "ChatGPT plugin written with FastAPI. Uses the ChatGPT API to extract context from text, persisting it for retrieval from a vector database.",
-    "tags": ["Python", "FastAPI", "PostgreSQL", "OAuth2"]
+    "tags": ["Python", "FastAPI", "PostgreSQL", "OAuth2"],
+    "image": "memo.png"
   },
   {
     "name": "ML Food Dispenser",
@@ -13,7 +21,7 @@
   },
   {
     "name": "MangaDex Bot",
-    "description": "Discord bot for MangaDex, with an alert feature when your following list is updated.",
+    "description": "Discord bot for interacting with the MangaDex API, with an alert feature when your following list is updated.",
     "tags": ["Node.js", "Axios", "JavaScript", "Heroku"],
     "link": "https://github.com/chitsbits/mangadex-bot",
     "image": "mdbot.png"
